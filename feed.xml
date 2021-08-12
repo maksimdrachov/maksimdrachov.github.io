@@ -1,5 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-08-03T16:40:20+02:00</updated><id>/feed.xml</id><title type="html">drachov</title><subtitle>to serve and inspire
-</subtitle><author><name>{&quot;email&quot;=&gt;&quot;maksim.drachov@outlook.com&quot;}</name><email>maksim.drachov@outlook.com</email></author><entry><title type="html">Joachim</title><link href="/2020/02/18/joachim.html" rel="alternate" type="text/html" title="Joachim" /><published>2020-02-18T00:00:00+01:00</published><updated>2020-02-18T00:00:00+01:00</updated><id>/2020/02/18/joachim</id><content type="html" xml:base="/2020/02/18/joachim.html">&lt;p&gt;Beste Joachim,&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-08-12T16:03:48+02:00</updated><id>/feed.xml</id><title type="html">drachov</title><subtitle>to serve and inspire
+</subtitle><author><name>{&quot;email&quot;=&gt;&quot;maksim.drachov@outlook.com&quot;}</name><email>maksim.drachov@outlook.com</email></author><entry><title type="html">Study</title><link href="/2021/08/12/tutorials.html" rel="alternate" type="text/html" title="Study" /><published>2021-08-12T00:00:00+02:00</published><updated>2021-08-12T00:00:00+02:00</updated><id>/2021/08/12/tutorials</id><content type="html" xml:base="/2021/08/12/tutorials.html">&lt;p&gt;As a junior engineer I aknowledge that I still have a lot to learn.&lt;/p&gt;
+
+&lt;p&gt;I’ve found that while learning I’ve found it useful to write down my notes in a tutorial-like form. This way I can make sure I’m actually learning and not just quickly glancing over the material.&lt;/p&gt;
+
+&lt;p&gt;Currently I’m writing a tutorial on &lt;a href=&quot;https://github.com/maksimdrachov/zephyr-rtos-tutorial&quot;&gt;Zephyr RTOS&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The following is a list of topics under consideration for future tutorials:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Renode&lt;/strong&gt;: Renode is an open source software development framework with commercial support from Antmicro that lets you develop, debug and test multi-node device systems reliably, scalably and effectively.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Linux Kernel&lt;/strong&gt;: The Linux kernel is a free and open-source,[5][6] monolithic, modular,[7] multitasking, Unix-like operating system kernel.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;TCP/IP&lt;/strong&gt;: The Internet protocol suite, commonly known as TCP/IP, is the set of communications protocols used in the Internet and similar computer networks.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cryptocurrency for Embedded Developers&lt;/strong&gt;: A tutorial series on how to work with cryptocurrencies on embedded devices.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;email&quot;=&gt;&quot;maksim.drachov@outlook.com&quot;}</name><email>maksim.drachov@outlook.com</email></author><summary type="html">As a junior engineer I aknowledge that I still have a lot to learn.</summary></entry><entry><title type="html">Joachim</title><link href="/2020/02/18/joachim.html" rel="alternate" type="text/html" title="Joachim" /><published>2020-02-18T00:00:00+01:00</published><updated>2020-02-18T00:00:00+01:00</updated><id>/2020/02/18/joachim</id><content type="html" xml:base="/2020/02/18/joachim.html">&lt;p&gt;Beste Joachim,&lt;/p&gt;
 
 &lt;p&gt;Je was mijn enige nieuwe vriend die ik heb gemaakt gedurende de gehele universitaire periode. Dat kon mij echter niets schelen, want ik wist: vrienden zoals jij, die maak je maar een beperkt aantal keer in het leven.&lt;/p&gt;
 
