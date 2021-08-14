@@ -1,16 +1,20 @@
-Serve on `http://localhost:4000/`
-```
-bundle exec jekyll serve
-```
+# Ultra - Super fast Jekyll theme
 
-Build website & push to github
-```
-bundle exec jekyll build
-cd _site
-git add .
-git commit -m "..."
-git push
-```
+Super fast, minimal one-column portfolio/blog theme built for Jekyll. Theme weighs under <strong>2kb</strong>. Perfect for your personal website, blog and portfolio.
 
-Website:
-[maksimdrachov.github.io](maksimdrachov.github.io)
+### Key features
+
+- seo optimized
+- weighs under 2kb
+- portfolio/blog pages
+- AAA, 100/100 scores on Lighthouse, Gmetrix and Webpagetest
+- responsive
+- inline css
+- compressed css, html
+- sitemap
+- robots.txt
+- atom feed
+
+![Screenshot](ultra.png)
+
+# Demo [here](https://ultra-jekyll.netlify.com/)
