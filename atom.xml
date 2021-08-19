@@ -4,7 +4,7 @@
  <title>dra4ov</title>
  <link href="https://example.com/atom.xml" rel="self"/>
  <link href="https://example.com/"/>
- <updated>2021-08-14T14:14:34+02:00</updated>
+ <updated>2021-08-19T14:16:43+02:00</updated>
  <id>https://example.com</id>
  <author>
    <name></name>
@@ -98,24 +98,6 @@ Rue de Birmingham 102
 &lt;p&gt;&lt;em&gt;Time:&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Every Sunday, 12-6pm&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Tutorials</title>
-   <link href="https://example.com/2021/08/12/tutorials"/>
-   <updated>2021-08-12T00:00:00+02:00</updated>
-   <id>https://example.com/2021/08/12/tutorials</id>
-   <content type="html">&lt;p&gt;Currently I’m writing a tutorial on &lt;a href=&quot;https://github.com/maksimdrachov/zephyr-rtos-tutorial&quot;&gt;Zephyr RTOS&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The following is a list of topics under consideration for future tutorials:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;Zephyr Tutorial for Advanced Topics&lt;/em&gt;: A tutorial that picks up the thread where the &lt;a href=&quot;https://github.com/maksimdrachov/zephyr-rtos-tutorial&quot;&gt;beginners tutorial&lt;/a&gt; leaves off. Some of the topics that I’d like to cover are: bluetooth, bootloader, security (trusted firmware), cryptography (how it applies to blockchain),…&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Blockchain for Embedded Developers&lt;/em&gt;: A tutorial series on how to work with blockchain on embedded devices. I’ve already started to compile a bunch of interesting resources &lt;a href=&quot;https://github.com/maksimdrachov/awesome-embedded-blockchain&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Renode&lt;/em&gt;: Renode is an open source software development framework with commercial support from Antmicro that lets you develop, debug and test multi-node device systems reliably, scalably and effectively.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Linux Kernel&lt;/em&gt;: The Linux kernel is a free and open-source, monolithic, modular, multitasking, Unix-like operating system kernel.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;TCP/IP&lt;/em&gt;: The Internet protocol suite, commonly known as TCP/IP, is the set of communications protocols used in the Internet and similar computer networks.&lt;/li&gt;
-&lt;/ul&gt;
 </content>
  </entry>
  
