@@ -4,7 +4,7 @@
  <title>dra4ov</title>
  <link href="https://example.com/atom.xml" rel="self"/>
  <link href="https://example.com/"/>
- <updated>2021-11-30T14:18:02+01:00</updated>
+ <updated>2021-11-30T14:21:36+01:00</updated>
  <id>https://example.com</id>
  <author>
    <name></name>
@@ -231,7 +231,9 @@
    <link href="https://example.com/2021/08/14/sunday-dev-sessions"/>
    <updated>2021-08-14T00:00:00+02:00</updated>
    <id>https://example.com/2021/08/14/sunday-dev-sessions</id>
-   <content type="html">&lt;p&gt;For the last couple of months I’ve started developing the habit of meeting with like-minded friends on Sunday.&lt;/p&gt;
+   <content type="html">&lt;p&gt;[&lt;strong&gt;Update 11/2021: not doing this anymore&lt;/strong&gt;]&lt;/p&gt;
+
+&lt;p&gt;For the last couple of months I’ve started developing the habit of meeting with like-minded friends on Sunday.&lt;/p&gt;
 
 &lt;p&gt;I find these days are often very engaging since it means: we get to catch up, discuss interesting topics and work on side projects.&lt;/p&gt;
 
