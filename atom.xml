@@ -4,13 +4,100 @@
  <title>dra4ov</title>
  <link href="https://example.com/atom.xml" rel="self"/>
  <link href="https://example.com/"/>
- <updated>2021-10-03T14:37:49+02:00</updated>
+ <updated>2021-11-30T11:23:05+01:00</updated>
  <id>https://example.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Brussels Startup Guide</title>
+   <link href="https://example.com/2021/10/17/brussels-startup-guide"/>
+   <updated>2021-10-17T00:00:00+02:00</updated>
+   <id>https://example.com/2021/10/17/brussels-startup-guide</id>
+   <content type="html">&lt;h2 id=&quot;startups&quot;&gt;Startups&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bsit&lt;/li&gt;
+  &lt;li&gt;Brussels Beer Project&lt;/li&gt;
+  &lt;li&gt;Cowboy&lt;/li&gt;
+  &lt;li&gt;CitizenLab&lt;/li&gt;
+  &lt;li&gt;Fyteko&lt;/li&gt;
+  &lt;li&gt;GarageCube&lt;/li&gt;
+  &lt;li&gt;Helpilepsy&lt;/li&gt;
+  &lt;li&gt;Kazidomi&lt;/li&gt;
+  &lt;li&gt;LucidWeb&lt;/li&gt;
+  &lt;li&gt;Mekanika&lt;/li&gt;
+  &lt;li&gt;MuuseLabs&lt;/li&gt;
+  &lt;li&gt;Qover&lt;/li&gt;
+  &lt;li&gt;Simone a Soif!&lt;/li&gt;
+  &lt;li&gt;Sortlist&lt;/li&gt;
+  &lt;li&gt;Spentys&lt;/li&gt;
+  &lt;li&gt;Tricount&lt;/li&gt;
+  &lt;li&gt;Urbantz&lt;/li&gt;
+  &lt;li&gt;Wooclap&lt;/li&gt;
+  &lt;li&gt;Yada Studio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;programs&quot;&gt;Programs&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;COOPCITY&lt;/li&gt;
+  &lt;li&gt;greenlab.brussels&lt;/li&gt;
+  &lt;li&gt;imec.start&lt;/li&gt;
+  &lt;li&gt;MAD Brussels - TRIAXES&lt;/li&gt;
+  &lt;li&gt;Orange Fab&lt;/li&gt;
+  &lt;li&gt;Réseau Entreprendre Bruxelles&lt;/li&gt;
+  &lt;li&gt;Start it @KBC&lt;/li&gt;
+  &lt;li&gt;Start.LAB&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;spaces&quot;&gt;Spaces&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;BeCentral&lt;/li&gt;
+  &lt;li&gt;Betacowork&lt;/li&gt;
+  &lt;li&gt;Brussels Life Science Incubator (BLSI)&lt;/li&gt;
+  &lt;li&gt;CO.Station&lt;/li&gt;
+  &lt;li&gt;DigitYser&lt;/li&gt;
+  &lt;li&gt;EEBIC&lt;/li&gt;
+  &lt;li&gt;Greenbizz&lt;/li&gt;
+  &lt;li&gt;ICAB Icubator&lt;/li&gt;
+  &lt;li&gt;MolenGeek&lt;/li&gt;
+  &lt;li&gt;RecyK&lt;/li&gt;
+  &lt;li&gt;Silversquare Triomphe&lt;/li&gt;
+  &lt;li&gt;transforma bxl&lt;/li&gt;
+  &lt;li&gt;WeWork Belmont Court&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;investors&quot;&gt;Investors&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Capricorn Partners&lt;/li&gt;
+  &lt;li&gt;eFounders&lt;/li&gt;
+  &lt;li&gt;finance&amp;amp;invest.brussels&lt;/li&gt;
+  &lt;li&gt;Invetures Investment Partners&lt;/li&gt;
+  &lt;li&gt;Look&amp;amp;Fin&lt;/li&gt;
+  &lt;li&gt;Make It&lt;/li&gt;
+  &lt;li&gt;Scale Up Fund&lt;/li&gt;
+  &lt;li&gt;Seeder Fund&lt;/li&gt;
+  &lt;li&gt;SI^2 Fund&lt;/li&gt;
+  &lt;li&gt;Solvay Ventures&lt;/li&gt;
+  &lt;li&gt;Startup Factory&lt;/li&gt;
+  &lt;li&gt;Tioga Captial&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;experts&quot;&gt;Experts&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Beyond Law Firm&lt;/li&gt;
+  &lt;li&gt;hub.brussels&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Sunday Dev Sessions</title>
