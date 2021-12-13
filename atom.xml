@@ -4,7 +4,7 @@
  <title>dra4ov</title>
  <link href="https://example.com/atom.xml" rel="self"/>
  <link href="https://example.com/"/>
- <updated>2021-11-30T14:21:36+01:00</updated>
+ <updated>2021-12-13T10:48:28+01:00</updated>
  <id>https://example.com</id>
  <author>
    <name></name>
@@ -13,15 +13,15 @@
 
  
  <entry>
-   <title>Valgus Wallet</title>
-   <link href="https://example.com/2021/11/30/valgus-wallet"/>
+   <title>light.wallet</title>
+   <link href="https://example.com/2021/11/30/light-wallet"/>
    <updated>2021-11-30T00:00:00+01:00</updated>
-   <id>https://example.com/2021/11/30/valgus-wallet</id>
+   <id>https://example.com/2021/11/30/light.wallet</id>
    <content type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;A crypto hardware wallet for the next billion&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
 
-&lt;p&gt;The idea of a hardware wallet is nothing new. There are already lots of companies operating in this domain, with &lt;a href=&quot;https://www.ledger.com/&quot;&gt;Ledger&lt;/a&gt; and &lt;a href=&quot;https://trezor.io/&quot;&gt;Trezor&lt;/a&gt; being the most well-known. However, if one takes a closer look at the products currently on the market it becomes clear that there isn’t really anything that could scale to the next billion of users. This comes down to the following three factors: expensive, not user-friendly and not durable. The Valgus wallet offers a solution to all three problems, enabling the entrance of the next billion into safely owning and using cryptocurrencies.&lt;/p&gt;
+&lt;p&gt;The idea of a hardware wallet is nothing new. There are already lots of companies operating in this domain, with &lt;a href=&quot;https://www.ledger.com/&quot;&gt;Ledger&lt;/a&gt; and &lt;a href=&quot;https://trezor.io/&quot;&gt;Trezor&lt;/a&gt; being the most well-known. However, if one takes a closer look at the products currently on the market it becomes clear that there isn’t really anything that could scale to the next billion of users. This comes down to the following three factors: expensive, not user-friendly and not durable. The light.wallet offers a solution to all three problems, enabling the entrance of the next billion into safely owning and using cryptocurrencies.&lt;/p&gt;
 
 &lt;h3 id=&quot;next-billion&quot;&gt;Next billion&lt;/h3&gt;
 
@@ -95,7 +95,7 @@
   &lt;li&gt;KaiOS: assume that the only internet-connected device available is a KaiOS phone. &lt;a href=&quot;https://en.wikipedia.org/wiki/KaiOS&quot;&gt;KaiOS&lt;/a&gt; is a popular OS for (cheap) feature phones that nevertheless offer internet connectivity (and a small app store).&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;This is how the Valgus will look like:&lt;/p&gt;
+&lt;p&gt;This is how the light.wallet will look like:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/valgus-wallet-pitch/valgus-front-back.png&quot; alt=&quot;valgus-front-back&quot; /&gt;&lt;/p&gt;
 
@@ -135,185 +135,7 @@
 
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 
-&lt;p&gt;The Valgus wallet offers a completely new approach to hardware wallets, with the potential to play a crucial role in the further adoption of cryptocurrencies around the world. My hope is that it can become the Nokia 3310 of hardware wallets and just as ubiquitous. I believe that by empowering everyone to become their own bank, the world will become more prosperous and fair.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Brussels Startup Guide</title>
-   <link href="https://example.com/2021/10/17/brussels-startup-guide"/>
-   <updated>2021-10-17T00:00:00+02:00</updated>
-   <id>https://example.com/2021/10/17/brussels-startup-guide</id>
-   <content type="html">&lt;h2 id=&quot;startups&quot;&gt;Startups&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Bsit&lt;/li&gt;
-  &lt;li&gt;Brussels Beer Project&lt;/li&gt;
-  &lt;li&gt;Cowboy&lt;/li&gt;
-  &lt;li&gt;CitizenLab&lt;/li&gt;
-  &lt;li&gt;Fyteko&lt;/li&gt;
-  &lt;li&gt;GarageCube&lt;/li&gt;
-  &lt;li&gt;Helpilepsy&lt;/li&gt;
-  &lt;li&gt;Kazidomi&lt;/li&gt;
-  &lt;li&gt;LucidWeb&lt;/li&gt;
-  &lt;li&gt;Mekanika&lt;/li&gt;
-  &lt;li&gt;MuuseLabs&lt;/li&gt;
-  &lt;li&gt;Qover&lt;/li&gt;
-  &lt;li&gt;Simone a Soif!&lt;/li&gt;
-  &lt;li&gt;Sortlist&lt;/li&gt;
-  &lt;li&gt;Spentys&lt;/li&gt;
-  &lt;li&gt;Tricount&lt;/li&gt;
-  &lt;li&gt;Urbantz&lt;/li&gt;
-  &lt;li&gt;Wooclap&lt;/li&gt;
-  &lt;li&gt;Yada Studio&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;programs&quot;&gt;Programs&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;COOPCITY&lt;/li&gt;
-  &lt;li&gt;greenlab.brussels&lt;/li&gt;
-  &lt;li&gt;imec.start&lt;/li&gt;
-  &lt;li&gt;MAD Brussels - TRIAXES&lt;/li&gt;
-  &lt;li&gt;Orange Fab&lt;/li&gt;
-  &lt;li&gt;Réseau Entreprendre Bruxelles&lt;/li&gt;
-  &lt;li&gt;Start it @KBC&lt;/li&gt;
-  &lt;li&gt;Start.LAB&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;spaces&quot;&gt;Spaces&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;BeCentral&lt;/li&gt;
-  &lt;li&gt;Betacowork&lt;/li&gt;
-  &lt;li&gt;Brussels Life Science Incubator (BLSI)&lt;/li&gt;
-  &lt;li&gt;CO.Station&lt;/li&gt;
-  &lt;li&gt;DigitYser&lt;/li&gt;
-  &lt;li&gt;EEBIC&lt;/li&gt;
-  &lt;li&gt;Greenbizz&lt;/li&gt;
-  &lt;li&gt;ICAB Icubator&lt;/li&gt;
-  &lt;li&gt;MolenGeek&lt;/li&gt;
-  &lt;li&gt;RecyK&lt;/li&gt;
-  &lt;li&gt;Silversquare Triomphe&lt;/li&gt;
-  &lt;li&gt;transforma bxl&lt;/li&gt;
-  &lt;li&gt;WeWork Belmont Court&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;investors&quot;&gt;Investors&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Capricorn Partners&lt;/li&gt;
-  &lt;li&gt;eFounders&lt;/li&gt;
-  &lt;li&gt;finance&amp;amp;invest.brussels&lt;/li&gt;
-  &lt;li&gt;Invetures Investment Partners&lt;/li&gt;
-  &lt;li&gt;Look&amp;amp;Fin&lt;/li&gt;
-  &lt;li&gt;Make It&lt;/li&gt;
-  &lt;li&gt;Scale Up Fund&lt;/li&gt;
-  &lt;li&gt;Seeder Fund&lt;/li&gt;
-  &lt;li&gt;SI^2 Fund&lt;/li&gt;
-  &lt;li&gt;Solvay Ventures&lt;/li&gt;
-  &lt;li&gt;Startup Factory&lt;/li&gt;
-  &lt;li&gt;Tioga Captial&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;experts&quot;&gt;Experts&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Beyond Law Firm&lt;/li&gt;
-  &lt;li&gt;hub.brussels&lt;/li&gt;
-&lt;/ul&gt;
-
-</content>
- </entry>
- 
- <entry>
-   <title>Sunday Dev Sessions</title>
-   <link href="https://example.com/2021/08/14/sunday-dev-sessions"/>
-   <updated>2021-08-14T00:00:00+02:00</updated>
-   <id>https://example.com/2021/08/14/sunday-dev-sessions</id>
-   <content type="html">&lt;p&gt;[&lt;strong&gt;Update 11/2021: not doing this anymore&lt;/strong&gt;]&lt;/p&gt;
-
-&lt;p&gt;For the last couple of months I’ve started developing the habit of meeting with like-minded friends on Sunday.&lt;/p&gt;
-
-&lt;p&gt;I find these days are often very engaging since it means: we get to catch up, discuss interesting topics and work on side projects.&lt;/p&gt;
-
-&lt;p&gt;Because I feel like it could be interesting to open this up to other people as well, I’d like to make an open call for anyone who is interested in joining these sessions.&lt;/p&gt;
-
-&lt;p&gt;So if you’re&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;interested in technology
-    &lt;ul&gt;
-      &lt;li&gt;electronics (IoT, drones, …)&lt;/li&gt;
-      &lt;li&gt;3d printing&lt;/li&gt;
-      &lt;li&gt;blockchain&lt;/li&gt;
-      &lt;li&gt;machine learning&lt;/li&gt;
-      &lt;li&gt;data science&lt;/li&gt;
-      &lt;li&gt;web development&lt;/li&gt;
-      &lt;li&gt;…&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;want to learn from others&lt;/li&gt;
-  &lt;li&gt;want to share knowledge&lt;/li&gt;
-  &lt;li&gt;work on some side project&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Feel free to contact me through &lt;a href=&quot;https://twitter.com/maksimdrachov&quot;&gt;Twitter&lt;/a&gt; or by &lt;a href=&quot;mailto:maksim.drachov@outlook.com&quot;&gt;e-mail&lt;/a&gt;.
-Please write a short paragraph about yourself and your interests.&lt;/p&gt;
-
-&lt;p&gt;For reference, here are some of the people that you &lt;em&gt;might&lt;/em&gt; meet.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;David Ferreira
-    &lt;ul&gt;
-      &lt;li&gt;co-founder/CEO/CTO at &lt;a href=&quot;https://www.yada.brussels/&quot;&gt;Yada Studio&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/david-ferreira-b16081211/&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Jean De Mevius
-    &lt;ul&gt;
-      &lt;li&gt;co-founder/Industrial Designer at &lt;a href=&quot;https://www.yada.brussels/&quot;&gt;Yada Studio&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/jean-de-mevius-83b400123/&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Tom Coppens
-    &lt;ul&gt;
-      &lt;li&gt;Software Engineer at &lt;a href=&quot;http://www.greenisland.be/&quot;&gt;Green Island&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/tom-coppens-7264b8142/&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Bram Sikkens
-    &lt;ul&gt;
-      &lt;li&gt;Athlete (canoeing) at &lt;a href=&quot;https://www.sport.vlaanderen/&quot;&gt;Sport Vlaanderen&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Studied Informatics at Erasmus Hogeschool Brussel&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/bram-sikkens-942644145/&quot;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Practical&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Location&lt;/em&gt;:&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Yada Studio
-Rue de Birmingham 102
-1070 Anderlecht
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;em&gt;How to get there:&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;By metro: it’s right next to &lt;a href=&quot;https://www.google.com/maps/place/Delacroix+metro+station/@50.8458363,4.3234784,15z/data=!4m2!3m1!1s0x0:0x9457582c067c55e1?sa=X&amp;amp;ved=2ahUKEwiP_7zWq7DyAhUNyKQKHflLD6wQ_BIwG3oECF4QBQ&quot;&gt;Delacroix&lt;/a&gt; metro station&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/sunday-dev-sessions/metro-to-studio.png&quot; alt=&quot;metro-to-studio&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;By car: free parking is available&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/sunday-dev-sessions/car-to-studio.png&quot; alt=&quot;car-to-studio&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Time:&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Every Sunday, 12-6pm&lt;/p&gt;
+&lt;p&gt;The light.wallet offers a completely new approach to hardware wallets, with the potential to play a crucial role in the further adoption of cryptocurrencies around the world. My hope is that it can become the Nokia 3310 of hardware wallets and just as ubiquitous. I believe that by empowering everyone to become their own bank, the world will become more prosperous and fair.&lt;/p&gt;
 </content>
  </entry>
  
