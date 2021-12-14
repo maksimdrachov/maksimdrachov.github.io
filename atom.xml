@@ -4,13 +4,85 @@
  <title>dra4ov</title>
  <link href="https://example.com/atom.xml" rel="self"/>
  <link href="https://example.com/"/>
- <updated>2021-12-13T10:48:28+01:00</updated>
+ <updated>2021-12-14T12:02:20+01:00</updated>
  <id>https://example.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>light.wallet: faq</title>
+   <link href="https://example.com/2021/12/14/light-wallet-faq"/>
+   <updated>2021-12-14T00:00:00+01:00</updated>
+   <id>https://example.com/2021/12/14/light.wallet-faq</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;Some commonly asked questions that I would like to address in one place.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Why don’t you use Bluetooth?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Five reasons:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A Bluetooth module is an order of magnitude more expensive than a LED &amp;amp; light-sensor. Just a rough comparison:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Function&lt;/th&gt;
+      &lt;th&gt;Component&lt;/th&gt;
+      &lt;th&gt;Cost [€]&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bluetooth module&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.digikey.be/en/products/detail/CC2541F256RHAR/296-37144-6-ND/4505910?utm_campaign=buynow&amp;amp;utm_medium=aggregator&amp;amp;curr=eur&amp;amp;utm_source=octopart&quot;&gt;TI CC2541F256RHAR&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;4.70&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;light-sensor&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.digikey.be/en/products/detail/BPW34/751-1015-ND/1681149?utm_campaign=buynow&amp;amp;utm_medium=aggregator&amp;amp;curr=eur&amp;amp;utm_source=octopart&quot;&gt;BPW34&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;0.94&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;led&lt;/td&gt;
+      &lt;td&gt;/&lt;/td&gt;
+      &lt;td&gt;~0&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;A Bluetooth-based communication protocol is significantly more complex than a VLC-based one, thus more vulnerable to exploits.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In order to avoid leaking any information about the keys we want to use a faraday cage (metallic foil) that surrounds the device, this makes wireless communication impossible.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;As we want the device to be as accessible as possible, we have to take into account that some (&lt;a href=&quot;https://www.kaiostech.com/explore/devices/&quot;&gt;very&lt;/a&gt;) cheap phones that are popular in the developing world don’t have a bluetooth module. However all phones have a (rudimentary) camera and a screen.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bluetooth energy consumption would result in a higher power usage, and thus a lower battery life.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;em&gt;Isn’t the transmission kind of slow?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Yes, it’s slow. Assuming you have a simple phone with a 60Hz screen and a 15Hz camera; this means transactions between the phone and the wallet are going to take in the order of minutes. However, since the wallet is meant to be used as a storage device for your savings in the first place, this doesn’t seem to be such a big problem. Let’s say you’re going to add/withdraw funds from this wallet once every month or so, it’s not such an unreasonable amount of time to wait for the transaction to complete. Anyway, it’s probably safe to assume that most people will continue using fiat currency in their day-to-day transactions for the forseeable future. This device is mainly a tool to reliably store and build wealth, regardless of the political or economical situation of the user’s environment.&lt;/p&gt;
+
+&lt;p&gt;However, the light.wallet &lt;em&gt;can&lt;/em&gt; become a primary way of making payments in your day-to-day life as well. This all depends on the further spread of a second device: the light.terminal.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/light-wallet-faq/card-reader-sumup.png&quot; alt=&quot;card-reader&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Where the light.wallet can be seen as the crypto successor to the bank card; the light.terminal is the equivalent of a bank card reader. It will allow you to quickly request and process a payment, since it integrates all the necessary hardware to transmit/receive the information in an instant, as opposed to using the relatively slow transmission rate of the smartphone camera.&lt;/p&gt;
+
+&lt;p&gt;One additional idea here: integrate two magnets in every light.wallet and light.terminal, which will make aligning the light-sensor and the led between the two devices easy and seamless.&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>light.wallet</title>
