@@ -4,7 +4,7 @@
  <title>dra4ov</title>
  <link href="https://example.com/atom.xml" rel="self"/>
  <link href="https://example.com/"/>
- <updated>2022-03-05T17:35:20+02:00</updated>
+ <updated>2022-03-05T17:47:14+02:00</updated>
  <id>https://example.com</id>
  <author>
    <name></name>
@@ -29,27 +29,27 @@
   &lt;li&gt;Miao (CTO @ &lt;a href=&quot;https://www.superfluid.finance/home&quot;&gt;Superfluid&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Miao was one of the first people I got to know, he is working on Superfluid, which is a blockchain-based protocol that allows you to &lt;em&gt;stream&lt;/em&gt; money. What does this mean? Well, basically: in the future you won’t get paid x amount every &lt;em&gt;month&lt;/em&gt;, but x amount every &lt;em&gt;second&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Miao was one of the first people I got to know (during a &lt;a href=&quot;https://www.meetup.com/Tallinn-Libertarian-Meetup/&quot;&gt;Libertarian meetup&lt;/a&gt;). He works on Superfluid, which is a blockchain-based protocol that allows you to &lt;em&gt;stream&lt;/em&gt; money. What does this mean? Well, basically: in the future you won’t get paid x amount every &lt;em&gt;month&lt;/em&gt;, but x amount every &lt;em&gt;second&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;An example of how this could work: imagine you’re a highly-skilled programmer, you don’t have an employer but merely ‘rent’ out your time to anyone willing to pay your rate. You could be working for a couple of hours in the morning on one project for one company, and a couple of hours in the afternoon on another project for another company. Your compensation is on a second-by-second basis: at the end of the day you’ll see that your wallet has been topped up by the exact amount you’ve earned that day.&lt;/p&gt;
 
-&lt;p&gt;On the spending side, this also increases flexibility. Let’s say you’re not really interested in a monthly Netflix subscription, however sometimes Netflix does release something &lt;a href=&quot;https://www.netflix.com/ee/title/81426972&quot;&gt;worth&lt;/a&gt; watching. Using Superfluid it would be possible to pay Netflix on a per-second basis, which would allow me to finally stop leaching on my sisters account (sorry).&lt;/p&gt;
+&lt;p&gt;On the spending side, this also increases flexibility. Let’s say you’re not really interested in a monthly Netflix subscription, however sometimes Netflix does release something &lt;a href=&quot;https://www.netflix.com/ee/title/81426972&quot;&gt;worth&lt;/a&gt; watching. Using Superfluid it would be possible to pay Netflix on a per-second basis, which would allow me to finally stop leaching on my sisters account (sorry). For more examples, check out their &lt;a href=&quot;https://www.superfluid.finance/home&quot;&gt;website&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;During my first visit to Lift99 I got kind of lucky: it was the evening before Independence day, which meant there was a party. Miao was also there and after a couple of shots of Estonian vodka, he was kind enough to give me a small demo:&lt;/p&gt;
+&lt;p&gt;During my first visit to Lift99 I got lucky: it was the evening before Independence day, which meant there was a party. Miao was also there and after a couple of shots of Estonian vodka, he was kind enough to give me a small demo:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/estonia-month-1/superfluid.png&quot; alt=&quot;images/estonia-month-1/superfluid.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Superfluid in action&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;After a short setup procedure he could start streaming me $10/month (which resulted in me receiving 0.0725$ at the time when the screenshot was taken). Cool.&lt;/p&gt;
+&lt;p&gt;After a short setup procedure he was streaming me $10/month (which resulted in me receiving 0.0725$ at the time when the screenshot was taken). Cool.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Rasmus (Senior Technical Advisor @ &lt;a href=&quot;https://www.pawapay.co.uk/&quot;&gt;pawaPay&lt;/a&gt;, CTO @ &lt;a href=&quot;https://www.betpawa.cm/&quot;&gt;betPawa&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Originally from Denmark, Rasmus is a co-founder of betPawa, an online sport betting platform that’s mainly active in Africa. After many years of (successfully) growing this company, he has decided to exit and dedicate more time to studying Bitcoin. Currently in the process of translating &lt;a href=&quot;https://www.amazon.com/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861&quot;&gt;“The Bitcoin Standard”&lt;/a&gt; into Danish, a book I can highly recommend to anyone (don’t worry it’s not technical, but focuses instead on the philosophical/cultural aspects of Bitcoin).&lt;/p&gt;
+&lt;p&gt;Originally from Denmark, Rasmus is a co-founder of betPawa, an online sport betting platform that is mainly active in Africa. After many years of (successfully) growing this company, he has decided to exit and dedicate more time to studying Bitcoin. Currently in the process of translating &lt;a href=&quot;https://www.amazon.com/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861&quot;&gt;“The Bitcoin Standard”&lt;/a&gt; into Danish, a book I can highly recommend to anyone (don’t worry it’s not technical, but focuses instead on the philosophical/cultural aspects of Bitcoin).&lt;/p&gt;
 
-&lt;p&gt;I’ve only met him once, so can’t tell much more, but I’m sure we’ll meet up again someday soon, since eventually I want to discuss my own ideas with him and hopefully get some valuable feedback.&lt;/p&gt;
+&lt;p&gt;I’ve only met him once, so can’t tell much more, but I’m sure we’ll meet up again someday soon, eventually I want to discuss my own plans with him and hopefully get some valuable feedback.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Marten (Co-founder @ &lt;a href=&quot;https://joinothers.com/&quot;&gt;Others&lt;/a&gt;)&lt;/li&gt;
