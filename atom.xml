@@ -4,7 +4,7 @@
  <title>dra4ov</title>
  <link href="https://example.com/atom.xml" rel="self"/>
  <link href="https://example.com/"/>
- <updated>2022-05-22T13:16:58+03:00</updated>
+ <updated>2022-05-22T14:00:23+03:00</updated>
  <id>https://example.com</id>
  <author>
    <name></name>
@@ -41,30 +41,33 @@
 
 &lt;ul&gt;
   &lt;li&gt;web 1.0 (Amazon, Google, Paypal)&lt;/li&gt;
-  &lt;li&gt;web 2.0 (Facebook, Youtube, Instagram)
+  &lt;li&gt;web 2.0
     &lt;ul&gt;
-      &lt;li&gt;Apps (Uber, Deliveroo, Tinder)&lt;/li&gt;
+      &lt;li&gt;social media (Facebook, Youtube, Instagram)&lt;/li&gt;
+      &lt;li&gt;apps (Uber, Deliveroo, Tinder)&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Web 1.0 was first wave of (centralized) internet services such as Amazon, Google and Paypal.&lt;/p&gt;
 
-&lt;p&gt;Web 2.0 was the first step towards a more peer-to-peer based form of human interconnection. Companies, such as Facebook, Youtube and Twitter, gave everyone a platform to express themselves, and replaced centralized information sources such as TV networks and newspapers. Some &lt;a href=&quot;https://en.wikipedia.org/wiki/Facebook_Revolution&quot;&gt;revolutions&lt;/a&gt; arguably wouldn’t have occured, were it not for this latest addition to humanity’s toolkit. Smartphones (and apps) have further increased this impact; by connecting everyone 24/7, new possibilities got unlocked: press a button, a cab arrives; press a button, dinner; press a button, a date. (No guarantees on that last one though)&lt;/p&gt;
+&lt;p&gt;Web 2.0 was the first step towards a more peer-to-peer based form of human interconnection.&lt;/p&gt;
 
-&lt;p&gt;Currently we are in the early stage of the third wave.&lt;/p&gt;
+&lt;p&gt;Companies, such as Facebook, Youtube and Twitter, gave everyone a platform to express themselves, and replaced centralized information sources such as TV networks and newspapers. Arguably some &lt;a href=&quot;https://en.wikipedia.org/wiki/Facebook_Revolution&quot;&gt;revolutions&lt;/a&gt; wouldn’t have occured, were it not for this latest addition to humanity’s toolkit. Smartphones have further increase the scope of possible applications: press a button, a cab arrives; press a button, dinner; press a button, a date. (No guarantees on that last one though)&lt;/p&gt;
+
+&lt;p&gt;Currently we find ourselves in the early stages of the third wave.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/revolutions/steve-iphone.jpg&quot; alt=&quot;steve&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;bitcoin&quot;&gt;bitcoin&lt;/h2&gt;
 
-&lt;p&gt;Bitcoin is a fundamental upgrade to the Internet Protocol: initially we got e-mail, now we have e-money. Going back to our previous discussion about the internet being a great equalizer in terms of access to information; one problem that still didn’t solve: lack of opportunity. Let’s imagine a child in the Amazon learns to program from Youtube videos. How would he monetize his skills? His village might not require many software engineers; paying him from across the internet in his local currency would also be pretty difficult. Now however, using Bitcoin, making a payment can be as easy as sending an e-mail.&lt;/p&gt;
+&lt;p&gt;Bitcoin is a fundamental upgrade to the Internet Protocol: initially we got e-mail, now we have e-money. Going back to our previous discussion about the internet being a great equalizer in terms of access to information; one problem that still didn’t solve: lack of opportunity.&lt;/p&gt;
+
+&lt;p&gt;Let’s imagine a child in the Amazon learns to program from Youtube videos. How would he monetize his skills? His village might not require many software engineers; paying him from across the internet in his local currency would also be pretty difficult. Now however, using Bitcoin, making a payment can be as easy as sending an e-mail.&lt;/p&gt;
 
 &lt;p&gt;The further &lt;em&gt;bitcoinization&lt;/em&gt; of the world will occur slowly and then suddenly. It might seem like a small thing being able to send money, however in hindsight: e-mail was merely a prelude for what was to come. The consequences will be massive.&lt;/p&gt;
 
-&lt;p&gt;Goverments and banks are both instutions formed well &lt;em&gt;before&lt;/em&gt; the rise of the internet, however have so far have been pretty unaffected by this massive change: they are now next in line for disruption. In my estimation most will be unable to adapt, and thus disintegrate or go bankrupt. The best examples of countries that are well-adopted to the coming changes: Singapore, UAE and Estonia; perhaps not coincidentally: all are relatively young. (Estonia is perhaps a &lt;em&gt;post-internet&lt;/em&gt; country: restoring independence in 1991)&lt;/p&gt;
-
-&lt;p&gt;Bitcoin allows for the rise of completely new kinds of decentralized organizations. The first &lt;a href=&quot;https://www.comparably.com/news/20-companies-that-are-now-remote-first-or-fully-remote/&quot;&gt;examples&lt;/a&gt; of remote-first companies have already started to show up (with some help from China). Bitcoin will only further accelerate this trend, erasing the arbitrary economic borders imposed by the hegemony of national currencies; leveling the economic playing field for everyone.&lt;/p&gt;
+&lt;p&gt;Bitcoin allows for the rise of completely new kinds of decentralized organizations. The first &lt;a href=&quot;https://www.comparably.com/news/20-companies-that-are-now-remote-first-or-fully-remote/&quot;&gt;examples&lt;/a&gt; of remote-first companies have already started to show up (with some help from China). Bitcoin will only further accelerate this trend, erasing the arbitrary economic borders imposed by the hegemony of national currencies. First, the internet has provided everyone access to information; soon it will provide everyone access to opportunity.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/revolutions/satoshi.jpeg&quot; alt=&quot;satoshi&quot; /&gt;&lt;/p&gt;
 
