@@ -4,7 +4,7 @@
  <title>dra4ov</title>
  <link href="https://example.com/atom.xml" rel="self"/>
  <link href="https://example.com/"/>
- <updated>2022-05-22T14:00:23+03:00</updated>
+ <updated>2022-05-22T14:10:56+03:00</updated>
  <id>https://example.com</id>
  <author>
    <name></name>
@@ -49,11 +49,13 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Web 1.0 was first wave of (centralized) internet services such as Amazon, Google and Paypal.&lt;/p&gt;
+&lt;p&gt;Web 1.0 was the first wave of (centralized) internet services such as Amazon, Google and Paypal.&lt;/p&gt;
 
 &lt;p&gt;Web 2.0 was the first step towards a more peer-to-peer based form of human interconnection.&lt;/p&gt;
 
-&lt;p&gt;Companies, such as Facebook, Youtube and Twitter, gave everyone a platform to express themselves, and replaced centralized information sources such as TV networks and newspapers. Arguably some &lt;a href=&quot;https://en.wikipedia.org/wiki/Facebook_Revolution&quot;&gt;revolutions&lt;/a&gt; wouldn’t have occured, were it not for this latest addition to humanity’s toolkit. Smartphones have further increase the scope of possible applications: press a button, a cab arrives; press a button, dinner; press a button, a date. (No guarantees on that last one though)&lt;/p&gt;
+&lt;p&gt;Companies, such as Facebook, Youtube and Twitter, gave everyone a platform to express themselves, and replaced previous, centrally-controlled, information sources such as TV networks and newspapers. Arguably some &lt;a href=&quot;https://en.wikipedia.org/wiki/Facebook_Revolution&quot;&gt;revolutions&lt;/a&gt; wouldn’t have occured, were it not for this latest addition to humanity’s toolkit.&lt;/p&gt;
+
+&lt;p&gt;Smartphones have further increase the scope of possible applications: press a button, a cab arrives; press a button, dinner; press a button, a date. (No guarantees on that last one though!)&lt;/p&gt;
 
 &lt;p&gt;Currently we find ourselves in the early stages of the third wave.&lt;/p&gt;
 
@@ -67,7 +69,7 @@
 
 &lt;p&gt;The further &lt;em&gt;bitcoinization&lt;/em&gt; of the world will occur slowly and then suddenly. It might seem like a small thing being able to send money, however in hindsight: e-mail was merely a prelude for what was to come. The consequences will be massive.&lt;/p&gt;
 
-&lt;p&gt;Bitcoin allows for the rise of completely new kinds of decentralized organizations. The first &lt;a href=&quot;https://www.comparably.com/news/20-companies-that-are-now-remote-first-or-fully-remote/&quot;&gt;examples&lt;/a&gt; of remote-first companies have already started to show up (with some help from China). Bitcoin will only further accelerate this trend, erasing the arbitrary economic borders imposed by the hegemony of national currencies. First, the internet has provided everyone access to information; soon it will provide everyone access to opportunity.&lt;/p&gt;
+&lt;p&gt;Bitcoin allows for the rise of completely new kinds of decentralized organizations. The first &lt;a href=&quot;https://www.comparably.com/news/20-companies-that-are-now-remote-first-or-fully-remote/&quot;&gt;examples&lt;/a&gt; of remote-first companies have already started to show up (with some help from China). Bitcoin will only further accelerate this trend, erasing the arbitrary economic borders imposed by the hegemony of national currencies. First, the internet provided everyone access to information; soon it will provide everyone access to opportunity.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/revolutions/satoshi.jpeg&quot; alt=&quot;satoshi&quot; /&gt;&lt;/p&gt;
 
