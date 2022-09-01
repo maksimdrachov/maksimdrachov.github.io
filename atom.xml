@@ -4,7 +4,7 @@
  <title>dra4ov</title>
  <link href="https://example.com/atom.xml" rel="self"/>
  <link href="https://example.com/"/>
- <updated>2022-05-22T14:14:51+03:00</updated>
+ <updated>2022-09-01T09:54:49+03:00</updated>
  <id>https://example.com</id>
  <author>
    <name></name>
@@ -13,67 +13,171 @@
 
  
  <entry>
-   <title>revolutions</title>
-   <link href="https://example.com/2022/05/21/revolutions"/>
-   <updated>2022-05-21T00:00:00+03:00</updated>
-   <id>https://example.com/2022/05/21/revolutions</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/revolutions/apple-mac.jpeg&quot; alt=&quot;apple-mac&quot; /&gt;&lt;/p&gt;
+   <title>light.terminal</title>
+   <link href="https://example.com/2022/09/01/light-terminal"/>
+   <updated>2022-09-01T00:00:00+03:00</updated>
+   <id>https://example.com/2022/09/01/light-terminal</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/light-terminal/light-terminal-header.png&quot; alt=&quot;images/light-terminal/light-terminal-header.png&quot; /&gt;
+&lt;em&gt;&lt;strong&gt;A payment terminal for light.pay&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;internet&quot;&gt;internet&lt;/h2&gt;
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
 
-&lt;p&gt;Every once in a while, civilization is radically transformed through technological revolutions:&lt;/p&gt;
+&lt;p&gt;Previously we have introduced the idea for the &lt;a href=&quot;https://maksimdrachov.github.io/2022/08/31/light-wallet&quot;&gt;light.wallet&lt;/a&gt;, a hardware wallet that uses a light-based protocol for transmitting information back-and-forth (called &lt;strong&gt;light.pay&lt;/strong&gt;).&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Food production (Agricultural Revolution, ~8000 BC)&lt;/li&gt;
-  &lt;li&gt;Industry (Industrial Revolution, ~1760)&lt;/li&gt;
-  &lt;li&gt;Electrical power (Second Industrial Revolution, ~1880)&lt;/li&gt;
-  &lt;li&gt;Internet (Information Revolution, ~1990)&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;When using the wallet in combination with a phone, each transaction takes somewhere between 1 to 3 minutes. As the primary use case of the wallet is to store value, it is safe to assume such withdrawals won’t need to be made very often. Indeed it might even be seen as a benefit: it introduces some friction whenever you want to withdraw, thereby encouraging you to hodl.&lt;/p&gt;
 
-&lt;p&gt;The Information Revolution is the latest addition to this list and therefore the one whose full impact still remains to be felt. The internet allows for two (seemingly) contradictory trends to occur simultanously: increasing equality and increasing inequality. How can this be?&lt;/p&gt;
+&lt;p&gt;However, as the adoption and usage of Bitcoin grows, increasingly it’ll be used as a regular currency as well (paying for groceries, taxi, coffee,…). To make these kind of daily transactions as quick and easy as possible, we want to introduce a new project: &lt;strong&gt;light.terminal&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Increasing &lt;em&gt;equality&lt;/em&gt;: An internet connection is the great equalizer when it comes to leveling the playing field in terms of access to information. This gives everyone the opportunity to educate themselves.&lt;/li&gt;
-  &lt;li&gt;Increasing &lt;em&gt;inequality&lt;/em&gt;: Equality of opportunity does not result in equality of outcome. Even though everyone has the same opportunity; the internet offers many rabit holes: some are more useful than others.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&quot;how-does-it-work&quot;&gt;How does it work?&lt;/h3&gt;
 
-&lt;p&gt;The impact of the internet has occured in &lt;em&gt;waves&lt;/em&gt;, some notable ones:&lt;/p&gt;
+&lt;p&gt;Let’s start by taking a look at how a transaction is signed using the light.wallet:&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;web 1.0 (Amazon, Google, Paypal)&lt;/li&gt;
-  &lt;li&gt;web 2.0
-    &lt;ul&gt;
-      &lt;li&gt;social media (Facebook, Youtube, Instagram)&lt;/li&gt;
-      &lt;li&gt;apps (Uber, Deliveroo, Tinder)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;/images/light-terminal/lightpay-steps-2.png&quot; alt=&quot;lightpay-steps&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Web 1.0 was the first wave of (centralized) internet services such as Amazon, Google and Paypal.&lt;/p&gt;
+&lt;p&gt;Steps 1 and 3 use light.pay to transmit information back-and-forth. Assuming we use the phone’s camera (30 Hz) and screen (60 Hz); a transaction takes roughly 3 minutes. To optimize the user experience for daily transactions, we need a way to increase the speed of transmitting information between the wallet and the phone by multiple orders of magnitude.&lt;/p&gt;
 
-&lt;p&gt;Web 2.0 was the first step towards a more peer-to-peer based form of human interconnection.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/light-terminal/light-terminal.png&quot; alt=&quot;light-terminal&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Companies, such as Facebook, Youtube and Twitter, gave everyone a platform to express themselves, and replaced previous, centrally-controlled, information sources such as TV networks and newspapers. Arguably some &lt;a href=&quot;https://en.wikipedia.org/wiki/Facebook_Revolution&quot;&gt;revolutions&lt;/a&gt; wouldn’t have occured, were it not for this latest addition to humanity’s toolkit.&lt;/p&gt;
+&lt;p&gt;This is where the light.terminal comes into play, it’s a square-shaped box that connects to the merchant’s phone. It integrates a light-sensor and LED (same setup as the light.wallet) and 2 magnets that allow for easy allignment between the sensors/leds of the terminal and the customer’s wallet. This circumvents the bottleneck in transmission speed, reducing the time it takes to make a payment down to a fraction of a second. This is done without requiring any special hardware (nfc, bluetooth, batteries) and works even with the most basic feature phone (which are popular in developing countries where we could envision this being used by cab drivers, street merchants,…)&lt;/p&gt;
 
-&lt;p&gt;Smartphones have further increased the scope of possible applications: press a button, a cab arrives; press a button, dinner; press a button, a date. (No guarantees on that last one though!)&lt;/p&gt;
+&lt;p&gt;To give credit where credit is due: we were (heavily) inspired by the &lt;a href=&quot;https://squareup.com/us/en/hardware/reader&quot;&gt;Square card reader&lt;/a&gt;, which uses the same concept but applied to credit cards.&lt;/p&gt;
 
-&lt;p&gt;Currently we find ourselves in the early stages of the third wave.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/light-terminal/square-card-reader.png&quot; alt=&quot;square-card-reader&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/revolutions/steve-iphone.jpg&quot; alt=&quot;steve&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 
-&lt;h2 id=&quot;bitcoin&quot;&gt;bitcoin&lt;/h2&gt;
+&lt;p&gt;The light.terminal allows for anyone to quickly setup a payment terminal that is as easy to use as the credit card, without needing to go through a centralized authority such as a bank or cryptocurrency exchange. This further decreases the barrier for anyone to start earning and doing business in Bitcoin.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>light.wallet</title>
+   <link href="https://example.com/2022/08/31/light-wallet"/>
+   <updated>2022-08-31T00:00:00+03:00</updated>
+   <id>https://example.com/2022/08/31/light-wallet</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/light-wallet/light-wallet.png&quot; alt=&quot;light-wallet&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Bitcoin is a fundamental upgrade to the Internet Protocol: initially we got e-mail, now we have e-money. Going back to our previous discussion about the internet being a great equalizer in terms of access to information; one problem that still didn’t solve: lack of opportunity.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;A hardware wallet for the next billion&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Let’s imagine a child in the Amazon learns to program from Youtube videos. How would he monetize his skills? His village might not require many software engineers; paying him from across the internet in his local currency would also be pretty difficult. Now however, using Bitcoin, making a payment can be as easy as sending an e-mail.&lt;/p&gt;
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
 
-&lt;p&gt;The further &lt;em&gt;bitcoinization&lt;/em&gt; of the world will occur slowly and then suddenly. It might seem like a small thing being able to send money, however in hindsight: e-mail was merely a prelude for what was to come. The consequences will be massive.&lt;/p&gt;
+&lt;p&gt;The idea of a hardware wallet is nothing new. There are already lots of companies operating in this domain, with &lt;a href=&quot;https://www.ledger.com/&quot;&gt;Ledger&lt;/a&gt; and &lt;a href=&quot;https://trezor.io/&quot;&gt;Trezor&lt;/a&gt; being the most well-known. However, if one takes a closer look at the products currently on the market it becomes clear that there isn’t really anything that could scale to the next billion of users. This comes down to the following three factors: expensive, not user-friendly and not durable. The light.wallet offers a solution to all three problems, enabling the entrance of the next billion into safely storing and using Bitcoin.&lt;/p&gt;
 
-&lt;p&gt;Bitcoin allows for the rise of completely new kinds of decentralized organizations. The first &lt;a href=&quot;https://www.comparably.com/news/20-companies-that-are-now-remote-first-or-fully-remote/&quot;&gt;examples&lt;/a&gt; of remote-first companies have already started to show up (with some help from China). Bitcoin will only further accelerate this trend, erasing the arbitrary economic borders imposed by the hegemony of national currencies. First, the internet provided everyone access to information; soon it will provide everyone access to opportunity.&lt;/p&gt;
+&lt;h3 id=&quot;next-billion&quot;&gt;Next billion&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/revolutions/satoshi.jpeg&quot; alt=&quot;satoshi&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Hypothesis: Bitcoin will become the preferred currency of choice in developing countries &lt;em&gt;before&lt;/em&gt; the developed ones. Why? Our argument is that this mainly comes down to 2 factors:&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;&lt;center&gt;The creator of Bitcoin remains anonymous to this day.&lt;/center&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;High inflation: many developing countries suffer from high rates of inflation, investing in Bitcoin can be a hedge against this kind of instability and a reliable way to build wealth.&lt;/li&gt;
+  &lt;li&gt;1.7 billion unbanked (&lt;a href=&quot;https://globalfindex.worldbank.org/sites/globalfindex/files/chapters/2017%20Findex%20full%20report_chapter2.pdf&quot;&gt;worldbank.org&lt;/a&gt;): “Globally, about 1.7 billion adults remain unbanked-without an account at a financial institution or through a mobile money provider.”&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The latest data seems to support this hypothesis. For example, the &lt;a href=&quot;https://go.chainalysis.com/rs/503-FAP-074/images/Geography-of-Cryptocurrency-2021.pdf&quot;&gt;2021 Geography of Cryptocurrency Report&lt;/a&gt; shows that the countries with the highest amount of P2P exchange volume (adjusted for PPP per capita) are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Kenya&lt;/li&gt;
+  &lt;li&gt;Togo&lt;/li&gt;
+  &lt;li&gt;Vietnam&lt;/li&gt;
+  &lt;li&gt;Tanzania&lt;/li&gt;
+  &lt;li&gt;Cameroon&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;whats-the-problem&quot;&gt;What’s the problem?&lt;/h3&gt;
+
+&lt;p&gt;Most users of crypto in the developing world use their (smart)phone as a wallet. However this has some significant downsides:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Loss/theft: given the fact that a phone is something carried daily, it is at a significant risk of being lost or stolen. Especially when this becomes your de-facto savings account this becomes an extremely high risk, an unfortunate accident/situation could mean losing all your funds.&lt;/li&gt;
+  &lt;li&gt;Battery life: as smartphones are often prone to running out of battery, this means that you’re always dependent on having a charge whenever you want to make a transaction. This can be incredibly inconvenient.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The solution is to use a hardware wallet. However, if we take a look at the currently available models, we’ll see that they all carry significant downsides:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Ledger Nano S&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Requires a computer/usb-cable connection to use
+- Not very durable/waterproof
+- Making a transaction is cumbersome
+- Expensive (€60)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Trezor T&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Requires a computer/usb-cable connection to use
+- Not very durable/waterproof
+- Making a transaction is cumbersome
+- Expensive (€65)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Ledger Nano X&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;+ Wireless (Bluetooth)
+- Not very durable/waterproof
+- (Prohibitively) expensive (€120)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Coldcard&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;+ Does not require a computer (air-gap)
+- Not very durable/waterproof
+- (Prohibitively) expensive ($130)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;whats-the-solution&quot;&gt;What’s the solution?&lt;/h3&gt;
+
+&lt;p&gt;The solution to this problem needs to check the following criteria/constraints:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Secure: a secure wallet means that your funds can be stored safely, even if someone steals your wallet, they should not be able to access your funds.&lt;/li&gt;
+  &lt;li&gt;Durable: if it is to be adopted by a large number of people, living in a wide range of climates, it is clear that durability is an important feature.&lt;/li&gt;
+  &lt;li&gt;Affordable: makes it accessible to the widest range of people, regardless of their financial situation.&lt;/li&gt;
+  &lt;li&gt;Easy-to-use: should not require any special knowledge/skills to use.&lt;/li&gt;
+  &lt;li&gt;KaiOS/Android: assume that the only internet-connected device available is a very basic phone. &lt;a href=&quot;https://en.wikipedia.org/wiki/KaiOS&quot;&gt;KaiOS&lt;/a&gt; is a popular OS for (cheap) feature phones that nevertheless offer internet connectivity (and a small app store).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is how the light.wallet will look like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/light-wallet/wallet-front-back.png&quot; alt=&quot;wallet-front-back&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, let’s go through the criteria one-by-one again:&lt;/p&gt;
+
+&lt;h4 id=&quot;secure&quot;&gt;Secure&lt;/h4&gt;
+
+&lt;p&gt;The security is based on a minimal attack surface principle. A common type of hack is called “&lt;a href=&quot;https://en.wikipedia.org/wiki/Side-channel_attack&quot;&gt;side-channel attack&lt;/a&gt;” and is based on extracting information from the device through analysing power usage or detecting EM waves. By not providing any access to the battery (which can be charged by the solar cell), we can already effectively eliminate the possibility to analyse the power usage. By adding a metallic foil on the inside of the casing of the wallet, we also eliminate the possibility of extracting (or affecting) the data of the device through the use of EM waves. Finally, the device should be constructed in such a way that it can’t be disassembled without destroying the circuitry containing the private keys. All this should contribute to a wallet, which while simple in its approach, still offers plenty of security. As there is no need for any special secure electronic components, this approach also offers a high degree of security at the lowest price.&lt;/p&gt;
+
+&lt;h4 id=&quot;durable&quot;&gt;Durable&lt;/h4&gt;
+
+&lt;p&gt;There are no ports on the device, the keyboard is integrated in the casing as well, much in the same way as done on the 2FA-authentication device shown below. Waterproofing such a device should not be a great challenge and can be done quite cheaply.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/light-wallet/2fa-device.png&quot; alt=&quot;2fa-device&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;affordable&quot;&gt;Affordable&lt;/h4&gt;
+
+&lt;p&gt;Our estimate is that a large part of the cost of other wallets comes from using special, expensive components such as secure elements or bluetooth chips. As our approach to security does not require any secure elements and the communication is mainly done through the keyboard and led/light-sensor, it should come at a significantly lower price-point that the competition.&lt;/p&gt;
+
+&lt;h4 id=&quot;easy-to-use&quot;&gt;Easy-to-use&lt;/h4&gt;
+
+&lt;p&gt;The keyboard offers an easy and universally understood interface (something which can’t be said for some other wallets). When transmission of data is required, this is done through VLC (&lt;a href=&quot;https://en.wikipedia.org/wiki/Visible_light_communication&quot;&gt;Visible Light Communication&lt;/a&gt;) using the LED, giving a visual confirmation of the transaction to the user.&lt;/p&gt;
+
+&lt;h4 id=&quot;kaiosandroid&quot;&gt;KaiOS/Android&lt;/h4&gt;
+
+&lt;p&gt;Assuming the most basic of phones with an internet connection, this wallet can still be used. The only requirement for making a transaction is a flash-light and a camera-module, which can be found on even the cheapest models (some of which don’t have Bluetooth).&lt;/p&gt;
+
+&lt;p&gt;We have already mentioned VLC, but what do we mean exactly?&lt;/p&gt;
+
+&lt;p&gt;For making a transaction, a signing has to occur on the wallet and that signature (data) needs to be transmitted to the internet. Currently available wallets do this in one of 2 ways: USB or Bluetooth. Both have some significant downsides. USB requires an additional cable and a port which can be a liability when it comes to durability. Bluetooth is more expensive and uses additional power, leading to a reduced battery life.&lt;/p&gt;
+
+&lt;p&gt;Our solution is to integrate a LED and light-sensor on the back of the wallet, which can be used to communicate (in both directions) with the phone (which is in turn connected to the internet). A ‘basic’ bitcoin transaction requires ~250 bytes of data (2000 bits). Assuming that the phone camera has a refresh rate of 15 Hz, this means a transaction can be transmitted in ~2 minutes. Given the rate of improvement of smartphone cameras and the subsequent drop in cost, it is safe to assume that even the most basic phones will soon have 60 Hz cameras, which would result in a transmission time of ~35 seconds. As phone usage has wide penetration, even in the most remote parts of the world, this could mean a true revolution in terms of making payments.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/light-wallet/vlc-communication.png&quot; alt=&quot;vlc-communication&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;battery-life&quot;&gt;Battery life&lt;/h4&gt;
+
+&lt;p&gt;And last but not least, let’s talk about battery life. Since there is no external way to charge the device, integration of a solar cell solves this by allowing it to easily be recharged by sunlight. Solar cells are, much in the same way as smartphone cameras, continually improving and getting cheaper and therefore should not cause a great increase in the final unit cost. On the power consumption side, we can also mention that by using VLC it should be possible to greatly reduce the required power in comparison to other wireless solutions such as Bluetooth. In the end, the product life of this wallet will be measured in years (or even decades).&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;The light.wallet offers a completely new approach to hardware wallets, with the potential to play a crucial role in the further adoption of Bitcoin around the world. Our hope is that it can become the Nokia 3310 of hardware wallets and just as ubiquitous. We believe that by empowering everyone to become their own bank, the world will become more prosperous and fair.&lt;/p&gt;
 </content>
  </entry>
  
