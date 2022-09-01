@@ -4,7 +4,7 @@
  <title>dra4ov</title>
  <link href="https://example.com/atom.xml" rel="self"/>
  <link href="https://example.com/"/>
- <updated>2022-09-01T09:54:49+03:00</updated>
+ <updated>2022-09-01T10:04:55+03:00</updated>
  <id>https://example.com</id>
  <author>
    <name></name>
@@ -178,6 +178,8 @@
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 
 &lt;p&gt;The light.wallet offers a completely new approach to hardware wallets, with the potential to play a crucial role in the further adoption of Bitcoin around the world. Our hope is that it can become the Nokia 3310 of hardware wallets and just as ubiquitous. We believe that by empowering everyone to become their own bank, the world will become more prosperous and fair.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://maksimdrachov.github.io/2022/09/01/light-terminal&quot;&gt;Part 2&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
