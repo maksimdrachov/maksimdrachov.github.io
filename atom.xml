@@ -4,13 +4,54 @@
  <title>dra4ov</title>
  <link href="https://example.com/atom.xml" rel="self"/>
  <link href="https://example.com/"/>
- <updated>2023-01-02T23:53:28+02:00</updated>
+ <updated>2024-05-14T09:09:46+03:00</updated>
  <id>https://example.com</id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>estonia: year 2</title>
+   <link href="https://example.com/2024/05/13/year-2"/>
+   <updated>2024-05-13T00:00:00+03:00</updated>
+   <id>https://example.com/2024/05/13/year-2</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/moving-to-estonia/e-estonia.jpg&quot; alt=&quot;estonia&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;year-2&quot;&gt;Year 2&lt;/h2&gt;
+
+&lt;p&gt;It has now been 2 years since I packed my stuff into my Volkswagen and embarked on a little adventure called “moving to Estonia”. Honestly, time has flown by quick. I will go chronologically over all the events that remain in my memory from this time stretch.&lt;/p&gt;
+
+&lt;p&gt;Roughly 3 weeks after I arrived, I had just found an appartment to live in when Ukraine got invaded by Russia. I remember standing on the balcony—I might have been a little under the influence—looking out over quiet neighbourhood dotted with apartment buildings. From tens of windows, a soft yellow light glowed, bearing witness to the many lives that were going on. It felt as if the peaceful sky above all this was somehow a deception and that it might burst at any moment, releasing a wave of insanity that would descend on these lives. It was not a very pleasant thought.&lt;/p&gt;
+
+&lt;p&gt;My first year was spent working at a Finnish consultancy company. To be completely honest, I took the job as a stepping stone to be able to move to Estonia, so I shouldn’t complain, but the experience was not that great; it just confirmed/reinforced what I already knew: big companies are insanely unproductive, and I honestly don’t understand how they manage to get anything done at all. In this case, the company I worked for was Qualcomm, a big fish from the US of A. I thought, perhaps American companies are different from European ones? (My previous negative work experience was with Nokia). Turns out, no, they’re all the same. Actually, I think Qualcomm was considerably worse (at least the team I worked with), since it was completely overrun by Indians who, honestly, I wouldn’t trust with programming a traffic light (let alone telecom infrastructure).&lt;/p&gt;
+
+&lt;p&gt;Luckily, I didn’t move to Estonia without a “plan”. What might that be, you might ask. Here it goes: naturally, I’m not the most socially outgoing person, but after moving, I put it in my head that I had to try to keep my “social entropy” as high as possible (especially during that crucial first year). And honest to God— it kind of worked? I joined a co-working space, which was where I spent most of my Saturdays and Sundays (and eventually also working days, since I was so bored with the company office vibe). There, I did meet some cool people, but unfortunately, most of them were working on web development-related stuff (or crypto), and that’s just not what I was looking for (as I’m more into embedded/electronics).&lt;/p&gt;
+
+&lt;p&gt;However, before I moved, I had done some research; I knew I wanted to meet interesting people as fast as possible. The coworking space I eventually signed up for wasn’t the only place I had found that was (potentially) promising. I had also found K-Space, a hacker space. In the first month or so, I paid a visit to both. Lift99 (the coworking space) was pretty lively, had a table tennis table (heh), and was in a pretty cool, hipster-ish area. Visiting K-Space went as follows: there was one guy (very friendly!) who gave me a tour. They had some pretty cool old computers and a working area for soldering, woodwork, and so on, but it looked pretty empty as far as human activity goes. So, I made my choice by signing up for Lift99. Fortunately, the guy who gave me the K-Space tour also invited me to the Slack group, so I could still keep tabs on what was going on &lt;em&gt;there&lt;/em&gt;. A half year went by, and I saw the following comment:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/estonia-year-2/year-2-image.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Interesting. Pavel Kirienko? Sounds Russian/Ukrainian. I decided to Google his name and stumbled upon his GitHub. Then I saw this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/estonia-year-2/year-2-image-1.png&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;First thought: alright, this guy is clearly one sick son-of-a-&lt;del&gt;bitch&lt;/del&gt; workaholic. He’s probably interesting. So, I sent him a PM asking if I could visit to see what he was working on. The rest, as they say, is history.&lt;/p&gt;
+
+&lt;p&gt;In short: for 8 more months, I would continue working at my consultancy job, growing gradually more frustrated. In the meantime, most of my free time was spent working on OpenCyphal, an open-source project led by the previously mentioned Pavel. What happened at the end of those 8 months is actually a bit funny (and &lt;em&gt;classic&lt;/em&gt; me, if I may say so).&lt;/p&gt;
+
+&lt;p&gt;After many frustrating discussions with my Qualcomm colleagues where I was trying to expound on the benefits of writing tests (there were none; I had written something that could be used as such, but it was never going to get merged since it wasn’t something that was on their development roadmap), one fine morning at a standup with my colleagues, I announced that I would like to be transferred to a different project and that I wasn’t planning to work on anything Qualcomm-related going forward. My logic: “Worst case, they fire me, and that would be a blessing.” They fired me. Lucky for me, they gave me 3 months’ pay (if I remember correctly, it might have been 2). Get this: all this time, Pavel was telling me, “Don’t quit just yet; I can’t really hire you right now.” I texted him telling him what happened. The next day, I started to work at Zubax Robotics (for free). Fortunately, after a couple of months, Pavel managed to come through and pay me a salary. All’s well that ends well.&lt;/p&gt;
+
+&lt;p&gt;I remember that once I was sitting on a bench in a park with my (then) girlfriend. She was applying for an Erasmus exchange program and had to write a cover letter explaining why she felt compelled to go study abroad. She asked me to read her letter to check her grammar and spelling and give some feedback. Her letter ended with a quote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The mind, once stretched by a new idea, never returns to its original dimensions.” Ralph Waldo Emerson&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Of course, being a sarcastic teenage boy, I made a bit of fun of this and said it was perhaps a bit too &lt;em&gt;Instagram-quotey&lt;/em&gt;. Ten years later, I’m ending this blog with the same quote.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>2022</title>
