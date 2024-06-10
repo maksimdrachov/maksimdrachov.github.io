@@ -1,0 +1,31 @@
+I"�<p><img src="/images/light-terminal/light-terminal-header.png" alt="images/light-terminal/light-terminal-header.png" />
+<em><strong>A payment terminal for light.pay</strong></em></p>
+
+<h3 id="introduction">Introduction</h3>
+
+<p>Previously we have introduced the idea for the <a href="https://maksimdrachov.github.io/2022/08/31/light-wallet">light.wallet</a>, a hardware wallet that uses a light-based protocol for transmitting information back-and-forth (called <strong>light.pay</strong>).</p>
+
+<p>When using the wallet in combination with a phone, each transaction takes somewhere between 1 to 3 minutes. As the primary use case of the wallet is to store value, it is safe to assume such withdrawals won’t need to be made very often. Indeed it might even be seen as a benefit: it introduces some friction whenever you want to withdraw, thereby encouraging you to hodl.</p>
+
+<p>However, as the adoption and usage of Bitcoin grows, increasingly it’ll be used as a regular currency as well (paying for groceries, taxi, coffee,…). To make these kind of daily transactions as quick and easy as possible, we want to introduce a new project: <strong>light.terminal</strong>.</p>
+
+<h3 id="how-does-it-work">How does it work?</h3>
+
+<p>Let’s start by taking a look at how a transaction is signed using the light.wallet:</p>
+
+<p><img src="/images/light-terminal/lightpay-steps-2.png" alt="lightpay-steps" /></p>
+
+<p>Steps 1 and 3 use light.pay to transmit information back-and-forth. Assuming we use the phone’s camera (30 Hz) and screen (60 Hz); a transaction takes roughly 3 minutes. To optimize the user experience for daily transactions, we need a way to increase the speed of transmitting information between the wallet and the phone by multiple orders of magnitude.</p>
+
+<p><img src="/images/light-terminal/light-terminal.png" alt="light-terminal" /></p>
+
+<p>This is where the light.terminal comes into play, it’s a square-shaped box that connects to the merchant’s phone. It integrates a light-sensor and LED (same setup as the light.wallet) and 2 magnets that allow for easy allignment between the sensors/leds of the terminal and the customer’s wallet. This circumvents the bottleneck in transmission speed, reducing the time it takes to make a payment down to a fraction of a second. This is done without requiring any special hardware (nfc, bluetooth, batteries) and works even with the most basic feature phone (which are popular in developing countries where we could envision this being used by cab drivers, street merchants,…)</p>
+
+<p>To give credit where credit is due: we were (heavily) inspired by the <a href="https://squareup.com/us/en/hardware/reader">Square card reader</a>, which uses the same concept but applied to credit cards.</p>
+
+<p><img src="/images/light-terminal/square-card-reader.png" alt="square-card-reader" /></p>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>The light.terminal allows for anyone to quickly setup a payment terminal that is as easy to use as the credit card, without needing to go through a centralized authority such as a bank or cryptocurrency exchange. This further decreases the barrier for anyone to start earning and doing business in Bitcoin.</p>
+:ET
